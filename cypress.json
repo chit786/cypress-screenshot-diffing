@@ -1,0 +1,27 @@
+{
+  "projectId": "",
+  "baseUrl" : "https://www.hackerrank.com/",
+  "fixturesFolder" : "cypress/fixtures",
+  "integrationFolder" : "cypress/integration",
+  "supportFile" : "cypress/support/index.js",
+  "viewportHeight" : 800,
+  "viewportWidth" : 1280,
+  "waitForAnimations" : true,
+  "screenshotsFolder" : "cypress/screenshots",
+  "screenshotOnRunFailure" : true,
+  "videosFolder" : "cypress/videos",
+  "pluginsFile" : "cypress/plugins/index.js",
+  "ignoreTestFiles" : "index.js",
+  "video" : true,
+  "numTestsKeptInMemory" : 10,
+  "env": {
+    "vrServer": "http://localhost:7000",
+    "doBaseLine": false,
+    "disableScreenDiff" : false
+  },
+  "trashAssetsBeforeRuns" : true,
+  "defaultCommandTimeout" : 30000,
+  "videoUploadOnPasses" : false,
+  "reporter": "spec",
+  "chromeWebSecurity": false
+}

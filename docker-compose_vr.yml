@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  vr:
+    build: visualreview
+    ports:
+      - "7000:7000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+

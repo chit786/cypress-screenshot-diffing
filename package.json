@@ -1,0 +1,17 @@
+{
+  "name": "cypress-vr-screendiff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run": "./node_modules/.bin/cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.4.0"
+  }
+}

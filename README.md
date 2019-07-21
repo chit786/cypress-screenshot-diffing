@@ -8,7 +8,9 @@ It integrates Cypress with visual review screenshot comparison tool and gives us
 - `docker run -p 7000:7000 chit786/cypress-vr-screendiff:0.2` : This will start visual review server at [http://localhost:7000/](http://localhost:7000)
 - execute tests using `npm run cypress:run` which will takescreenshots and send it to visual review server
 
+In action: 
 
+![](screendiff.gif)
 
  
  
